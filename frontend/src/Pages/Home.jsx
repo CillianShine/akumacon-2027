@@ -165,12 +165,11 @@ export function Home() {
               <img
                 src={partner.image}
                 alt={partner.title}
-                className="rounded-circle shadow-lg mb-3"
+                className="shadow-lg mb-3"
                 style={{
-                  width: 160,
-                  height: 160,
-                  objectFit: "cover",
-                  border: "4px solid var(--highlight)",
+                  width: "min(100%, 400px)",
+                  height: "auto",
+                  objectFit: "contain",
                 }}
               />
               <h5 className="fw-bold" style={{ color: "var(--highlight)" }}>

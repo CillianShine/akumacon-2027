@@ -198,7 +198,7 @@
     ]
   },
   "tradehall": {
-    "image": "/api/placeholder/600/400",
+    "image": "/Tradehall-images/Map.png",
     "hours": [
       { "day": "Friday", "time": "10:00 AM - 7:00 PM" },
       { "day": "Saturday", "time": "9:30 AM - 8:00 PM" },

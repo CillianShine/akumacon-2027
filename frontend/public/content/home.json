@@ -1,6 +1,6 @@
 {
   "hero": {
-    "banner_image": "/banner.jpg",
+    "banner_image": "/banner.png",
     "ticket_text_desktop": "GET TICKETS",
     "ticket_text_mobile": "Tickets",
     "ticket_link": "/ticketselection"
@@ -14,19 +14,9 @@
   },
   "charityPartners": [
     {
-      "image": "/images/charity1.jpg",
-      "title": "Charity Title 1",
-      "caption": "This is a short description or caption for Charity Partner 1."
-    },
-    {
-      "image": "/images/charity2.jpg",
-      "title": "Charity Title 2",
-      "caption": "This is a short description or caption for Charity Partner 2."
-    },
-    {
-      "image": "/images/charity3.jpg",
-      "title": "Charity Title 3",
-      "caption": "This is a short description or caption for Charity Partner 3."
+      "image": "sponsor-images/Croi.png",
+      "title": "Croi",
+      "caption": "We’re proud to announce Croí as our chosen charity for Akumakon 2026! Croí works to prevent heart disease and stroke, focusing on improving health and wellbeing in the West of Ireland.Their work is funded through donations and fundraising, and we’re excited to support their mission. All charity funds raised during the convention will go directly to Croí.https://croi.ie/"
     }
   ],
   "locationSection": {
@@ -35,7 +25,7 @@
     "buttonText": "Open in Maps",
     "buttonLink": "https://maps.app.goo.gl/AMn9WuK7xn6KmFSd6"
   },
-  "countdownStartDate": "February 13, 2026",
+  "countdownStartDate": "February 12, 2027",
   "updates": [
     {
       "image": "/images/update1.jpg",

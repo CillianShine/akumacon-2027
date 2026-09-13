@@ -3,6 +3,7 @@ import Navigation from "../Components/Navigation";
 import { Container, Tabs, Tab } from "react-bootstrap";
 import Bottom from "../Components/Bottom.jsx";
 import { useContent } from "../hooks/useContent.js";
+import "./Gallery.css";
 
 // Fixed years for the gallery, in descending order
 const FIXED_YEARS = ["2025", "2024", "2023", "2020", "2019", "2018"];
@@ -17,6 +18,7 @@ const Gallery = () => {
     return (
       <>
         <Navigation />
+        {/* MOVE TO Gallery.css: loading-state height. */}
         <div
           className="d-flex justify-content-center align-items-center"
           style={{ height: "50vh" }}
@@ -43,16 +45,19 @@ const Gallery = () => {
     <div>
       <Navigation />
       {/* Hero Section with background image */}
+      {/* MOVE TO Gallery.css: hero background, height, and positioning styles below. */}
       <section
-        className="py-5 text-center d-flex align-items-center justify-content-center"
-        style={{
+        className="gallery-hero py-5 text-center d-flex align-items-center justify-content-center"
+        /* </div>style={{
           background: hero.background_image
             ? `url('${hero.background_image}') center/cover no-repeat`
             : "var(--highlight)",
           minHeight: 300,
           position: "relative",
         }}
+        */
       >
+        {/* MOVE TO Gallery.css: hero panel background, corner radius, spacing, and shadow below. */}
         <div
           style={{
             background: "rgba(59,26,105,0.7)",
@@ -62,12 +67,14 @@ const Gallery = () => {
             boxShadow: "0 2px 8px var(--shadow-color)",
           }}
         >
+          {/* MOVE TO Gallery.css: title color below. */}
           <h1
             className="text-highlight text-shadow mb-3"
             style={{ color: "var(--highlight)" }}
           >
             {hero.title || "Gallery"}
           </h1>
+          {/* MOVE TO Gallery.css: subtitle color below. */}
           <p className="lead" style={{ color: "var(--highlight)" }}>
             {hero.subtitle || "Browse our event highlights by year"}
           </p>
@@ -105,6 +112,7 @@ const Gallery = () => {
                           dayObj.images.map((img, idx) => (
                             <div className="col-md-4 mb-4" key={idx}>
                               <div className="card shadow-sm h-100">
+                                {/* MOVE TO Gallery.css: image crop and fixed height below. */}
                                 <img
                                   src={img.url}
                                   className="card-img-top"

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 // Countdown component to display a timer for the event
 // Accepts props for the target date and updates the countdown dynamically
-export function Countdown({ startDate = "February 13, 2026" }) {
+export function Countdown({ startDate = "February 13, 2027" }) {
   const [countdown, setCountdown] = useState({
     days: 0,
     hours: 0,
@@ -51,7 +51,7 @@ export function Countdown({ startDate = "February 13, 2026" }) {
     >
       <div className="container">
         <h2 className="fs-2 fw-bold mb-4" style={{ color: "var(--highlight)" }}>
-          COUNTDOWN TO AKUMAKON 2026
+          COUNTDOWN TO AKUMAKON 2027
         </h2>
         <p className="fs-2 mb-4 fw-bold" style={{ color: "var(--highlight)" }}>
           {startDate}
